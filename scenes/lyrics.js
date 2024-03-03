@@ -1,3 +1,4 @@
+// Letra da música Céu Azul
 export const CeuAzul = [
   "Tão natural quanto a luz do dia",
   "Mas que preguiça boa, me deixa aqui à toa",
