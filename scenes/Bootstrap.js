@@ -19,8 +19,6 @@ export default class Bootstrap extends Phaser.Scene {
     this.load.image('guitarra', 'assets/guitarra.png');
     // Carrega a imagem do teclado
     this.load.image('keyboard', 'assets/keyboard_png.png');
-    // Carrega o áudio 'dia_de_luta'
-    this.load.audio('dia_de_luta', ['assets/dias_de_luta.mp3']);
   }
 
   // Método create que é chamado quando a cena é criada

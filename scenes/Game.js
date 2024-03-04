@@ -151,6 +151,7 @@ export default class Game extends Phaser.Scene {
       
       // Adicionando o evento de clique para ir para o menu principal
       this.input.on('pointerup', () => {
+        gameAttributes.score = 0;
         this.scene.stop('Game');
         this.scene.start('MainMenu');
       });
